@@ -11,6 +11,11 @@ body {
   font-family: "GmarketSansMedium";
   margin: 0;
   padding: 0;
+  background: rgb(0,0,0);
+  background: -moz-linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(71,71,93,1) 40%, rgba(179,179,179,1) 100%);
+  background: -webkit-linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(71,71,93,1) 40%, rgba(179,179,179,1) 100%);
+  background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(71,71,93,1) 40%, rgba(179,179,179,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#b3b3b3",GradientType=1);
 }
 
 body {
@@ -147,7 +152,7 @@ body {
 }
 
 .youth-studio-image {
-  width: 93%;
+  width: 70%;
   margin-bottom: 30px;
 }
 
@@ -376,7 +381,7 @@ body {
 
 .footer {
   padding: 40px 20px;
-  background-color: rgb(58, 58, 58);
+  /* background-color: rgb(58, 58, 58); */
 }
 
 .footer__main-icon {
