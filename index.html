@@ -38,10 +38,10 @@
 	<body>
 
 		<!-- Start Header/Navigation -->
-		<nav class="custom-navbar navbar navbar navbar-expand-md navbar-dark bg-dark" arial-label="Furni navigation bar">
+		<nav class="custom-navbar navbar navbar navbar-expand-md fixed-top navbar-dark bg-dark" arial-label="Furni navigation bar">
 
 			<div class="container">
-				<a class="navbar-brand" href="index.html"><img src="./assets/img/logo_bk_white.png" width="50px"/>  Flèche</a>
+				<a class="navbar-brand" href="/"><img src="./assets/img/logo_bk_white.png" width="50px"/>  Flèche</a>
 
 				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsFurni" aria-controls="navbarsFurni" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
@@ -50,12 +50,12 @@
 				<div class="collapse navbar-collapse" id="navbarsFurni">
 					<ul class="custom-navbar-nav navbar-nav ms-auto mb-2 mb-md-0">
 						<li class="nav-item active">
-							<a class="nav-link" href="index.html">Home</a>
+							<a class="nav-link" href="/">Home</a>
 						</li>
-						<li><a class="nav-link" href="about.html">About us</a></li>
-						<li><a class="nav-link" href="shop.html">Work</a></li>
-						<li><a class="nav-link" href="services.html">Services</a></li>
-						<li><a class="nav-link" href="contact.html">Contact us</a></li>
+						<li><a class="nav-link" href="#about_us">About us</a></li>
+						<li><a class="nav-link" href="#work">Work</a></li>
+						<li><a class="nav-link" href="#contents">Services</a></li>
+						<li><a class="nav-link" href="#contact">Contact us</a></li>
 					</ul>
 					<!--
 					<ul class="custom-navbar-cta navbar-nav mb-2 mb-md-0 ms-5">
@@ -75,7 +75,6 @@
 							<div class="intro-excerpt">
 								<h1>플레쉬(Flèche) <br> <span clsas="d-block">혁신적 미래를 만들다</span></h1>
 								<p class="mb-4">급변하는 미디어 환경 속 현대적 문화 트렌드와 기술 혁신을 과감히 수용하여 차별화된 콘텐츠를 창출하기 위해 디지털 시대의 새로운 미디어 패러다임 이끌다</p>
-								<p><a href="shop.html" class="btn btn-secondary me-2">Lean More</a><a href="about.html" class="btn btn-white-outline">Explore</a></p>
 							</div>
 						</div>
 						<div class="col-lg-7">
@@ -89,7 +88,7 @@
 		<!-- End Hero Section -->
 
 		<!-- Start Product Section -->
-		<div class="product-section">
+		<div id="work" class="product-section">
 			<div class="container">
 				<div class="row">
 
@@ -97,7 +96,6 @@
 					<div class="col-md-12 col-lg-3 mb-5 mb-lg-0">
 						<h2 class="mb-4 section-title">플레쉬(Flèche) 만의 오리지널 콘텐츠 제작</h2>
 						<p class="mb-4">패션, 뷰티, 메타버스에 이르러 젊은세대에 트랜드에 맞는 콘텐츠를 제공하고 재미와 영향력을 동시에 지닌 건강한 콘텐츠를 전합니다. </p>
-						<p><a href="shop.html" class="btn">더보기</a></p>
 					</div> 
 					<!-- End Column 1 -->
 
@@ -146,13 +144,49 @@
 					</div>
 					<!-- End Column 4 -->
 
+					<!-- Start Column 5 -->
+					<div class="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
+						<a class="product-item">
+							<img src="./assets/img/content_4.png" width="100%" height="400px" class="product-thumbnail">
+							<h3 class="product-title">기억속의 너</h3>
+						</a>
+					</div>
+					<!-- End Column 5 -->
+
+					<!-- Start Column 6 -->
+					<div class="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
+						<a class="product-item">
+							<img src="./assets/img/content_5.png" width="100%" height="400px" class="product-thumbnail">
+							<h3 class="product-title">기다림의 마침표</h3>
+						</a>
+					</div>
+					<!-- End Column 6 -->
+
+					<!-- Start Column 7 -->
+					<div class="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
+						<a class="product-item">
+							<img src="./assets/img/main_img_text.jpg" width="100%" height="400px" class="product-thumbnail">
+							<h3 class="product-title">버츄얼 아이돌 - 오르빗(Orbit)</h3>
+						</a>
+					</div>
+					<!-- End Column 7 -->
+
+					<!-- Start Column 7 -->
+					<div class="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
+						<a class="product-item">
+							<img src="./assets/img/comming_soon.jpg" width="100%" height="400px" class="product-thumbnail">
+							<h3 class="product-title">Comming soon</h3>
+						</a>
+					</div>
+					<!-- End Column 7 -->
+
 				</div>
 			</div>
 		</div>
 		<!-- End Product Section -->
 
 		<!-- Start Why Choose Us Section -->
-		<div class="why-choose-section">
+		<div id="contents" class="why-choose-section">
 			<div class="container">
 				<div class="row justify-content-between">
 					<div class="col-lg-6">
@@ -225,7 +259,7 @@
 		<!-- End Why Choose Us Section -->
 
 		<!-- Start We Help Section -->
-		<div class="we-help-section">
+		<div id="about_us" class="we-help-section">
 			<div class="container">
 				<div class="row justify-content-between">
 					<div class="col-lg-7 mb-5 mb-lg-0">
@@ -307,7 +341,7 @@
 					</div>
 				</div>
 
-				<div class="row justify-content-center">
+				<div id="contact" class="row justify-content-center">
 					<div class="col-lg-12">
 						<div class="testimonial-slider-wrap text-center">
 

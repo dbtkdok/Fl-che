@@ -106,6 +106,7 @@ a.more {
   margin-right: 20px; }
 
 .hero {
+  margin-top: 70px;
   padding: calc(4rem - 30px) 0 0rem 0;
   background: rgb(255,150,138);
   background: linear-gradient(90deg, rgba(255,150,138,1) 0%, rgba(255,200,162,1) 35%, rgba(246,234,206,1) 100%);
