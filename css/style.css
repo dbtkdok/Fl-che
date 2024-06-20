@@ -339,6 +339,7 @@ a.more {
   -ms-grid-columns: (1fr)[27];
   grid-template-columns: repeat(27, 1fr);
   position: relative; }
+/*
 .we-help-section .imgs-grid:before {
   position: absolute;
   content: "";
@@ -351,6 +352,7 @@ a.more {
   -ms-transform: translate(-40%, -40%);
   transform: translate(-40%, -40%);
   z-index: -1; }
+*/
 .we-help-section .imgs-grid .grid {
   position: relative; }
 .we-help-section .imgs-grid .grid img {
@@ -400,7 +402,10 @@ a.more {
   top: 8px; }
 
 .popular-product {
-  padding: 0 0 7rem 0; }
+  background: rgb(255, 150, 138);
+  background: linear-gradient(90deg, rgba(255, 150, 138, 1) 0%, rgba(255, 200, 162, 1) 35%, rgba(246, 234, 206, 1) 100%);
+  padding: 60px 50px;
+}
 .popular-product .product-item-sm h3 {
   font-size: 14px;
   font-weight: 700;
@@ -603,9 +608,10 @@ a.more {
   border-radius: 10px !important; }
 .footer-section .sofa-img {
   position: absolute;
-  top: -200px;
+  top: -250px;
   z-index: 1;
-  right: 0; }
+  right: 0;
+}
 .footer-section .sofa-img img {
   max-width: 380px; }
 .footer-section .links-wrap {
