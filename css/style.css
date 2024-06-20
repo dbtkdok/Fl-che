@@ -15,7 +15,7 @@ body {
   line-height: 28px;
   color: #6a6a6a;
   font-size: 14px;
-  background-color: #eff2f1;
+  background-color: #ECEAE4;
 }
 
 a {
@@ -150,7 +150,7 @@ a.more {
 @media (min-width: 1200px) {
   .hero .hero-img-wrap img {
     left: 0px;
-    top: -130px;
+    top: -150px;
     right: -100px;
   } }
 .hero .hero-img-wrap:after {
@@ -283,6 +283,7 @@ a.more {
   padding: 7rem 0; }
 .why-choose-section .img-wrap {
   position: relative; }
+/*
 .why-choose-section .img-wrap:before {
   position: absolute;
   content: "";
@@ -295,6 +296,7 @@ a.more {
   -ms-transform: translate(-40%, -40%);
   transform: translate(-40%, -40%);
   z-index: -1; }
+*/
 .why-choose-section .img-wrap img {
   border-radius: 20px; }
 
