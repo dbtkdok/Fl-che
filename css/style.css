@@ -153,6 +153,7 @@ a.more {
     top: -150px;
     right: -100px;
   } }
+/*
 .hero .hero-img-wrap:after {
   content: "";
   position: absolute;
@@ -163,6 +164,7 @@ a.more {
   background-repeat: no-repeat;
   right: -100px;
   top: -0px; }
+*/
 @media (min-width: 1200px) {
   .hero .hero-img-wrap:after {
     top: -40px; } }
